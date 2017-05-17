@@ -1,0 +1,137 @@
+
+h2{
+    font-size: 1em;
+    padding-top: none;
+    margin-top: 0;
+}
+#tableVideo{
+    width: 50%;
+}
+iframe{
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 45vw;
+    height: 50vh;
+}
+.formTable td{
+    padding-bottom: 5%;
+}
+.formTable{
+    border: none;
+}
+body {
+ width: 100%;
+ position: relative;
+ margin: 0 auto;
+}
+#container{
+    width: 100%;
+    margin: 0 auto;
+}
+#mainImage{
+    width: 100%;
+    background-image: url(images/hexBackground.jpg);
+    z-index: 1;
+    background-size: cover;
+}
+.subContentWhite{
+    border: 2px solid black;
+    border-radius: 25px;
+    padding-bottom: 1.5%;
+    padding-left: 5%;
+    padding-top: 1.5%;
+    padding-right: 5%;
+    margin: 5%;
+    background-color: white;
+    opacity: 0.8;
+    font: "passion-one";
+    font-size: 5vh;
+    color: black;
+    text-align: center;
+    
+}
+.subContentBlack{
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 90%;
+    padding-bottom: 1.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 1.5%;
+    background-color: dimgrey;
+    opacity: 0.8;
+    font: "passion-one";
+    font-size: 2.5em;
+    color: white;
+    font-weight: bold;
+    margin-left:2.5%;
+    margin-right: 2.5%;
+}
+.subContentBlack h2{
+    text-align: center;
+}
+#footer{
+    width: 99.8%;
+    padding-top: .5%;
+    border: dotted;
+    border-width: thin;
+    text-align: center;
+    font-size: .875em;
+    color: white;
+    font: "Cabin Sketch";
+    display: inline-block;
+    padding-bottom: .25%
+}
+.roster{ 
+    margin:5%;
+}
+#homeLink{
+    color: white;
+}
+.iconsPad{
+    margin-top: 7px;
+}
+.alignCenter{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-content: center;
+}
+.inlineBoxes{
+    display: inline-block;
+}
+.agenda {
+    font-size: .5em;
+}
+
+/* Dates */
+.agenda .agenda-date { width: 170px; }
+.agenda .agenda-date .dayofmonth {
+  font-size: 36px;
+  line-height: 36px;
+  margin-right: 10px; 
+}
+.agenda .agenda-date .shortdate {
+  font-size: 0.75em; 
+}
+
+
+/* Times */
+.agenda .agenda-time { width: 140px; } 
+
+
+/* Events */
+.agenda .agenda-events {  } 
+.agenda .agenda-events .agenda-event {  } 
+}
+@media only screen and (max-width: 951px){
+    
+}
+@media only screen and (max-width: 451px){
+  #subContentWhite{
+        font-size: 7vw
+    }
+    .roster{
+        margin: 0;
+    }
+}

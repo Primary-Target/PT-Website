@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="author" content="Jacob Wheeler">
+    <title>PT | Tournament Schedule</title>
+    <link rel="stylesheet" type="text/css" href="PT.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+    
+<body>
+<!--This is the primary image-->
+    <div id="mainImage">
+<!--NavBar Starts here-->
+<nav class = "navbar navbar-inverse" role = "navigation">
+    <img src="images/PTicon.png" style="float:left;" height ="50px"/>
+   <div class = "navbar-header">
+      <button type = "button" class = "navbar-toggle" 
+         data-toggle = "collapse" data-target = "#example-navbar-collapse">
+         <span class = "sr-only">Toggle navigation</span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+      </button>
+       
+      <a  id= "homeLink" class = "navbar-brand" href = "index.html">Primary Target -eSports</a>
+   </div>
+   
+   <div class = "collapse navbar-collapse" id = "example-navbar-collapse">
+      <ul class = "nav navbar-nav navbar-left">
+         <li class = "dropdown">
+            <a class = "dropdown-toggle" data-toggle = "dropdown">
+               Teams 
+               <b class = "caret"></b>
+            </a>
+            <ul class = "dropdown-menu">
+                <li><a href = "#">Call of Duty</a></li>
+                <li><a href = "PTRocketLeague.html">Rocket League</a></li>
+                <li><a href = "#">League of Legends</a></li>
+                <li><a href = "#">PlayerUknown's Battlegrounds</a></li>
+            </ul>
+         <li><a href = "Tourney.html">Tournament Schedule</a></li>
+         <li class = "dropdown">
+            <a class = "dropdown-toggle" data-toggle = "dropdown">
+               About PT 
+               <b class = "caret"></b>
+            </a>
+            <ul class = "dropdown-menu">
+               <li><a href="Sponsors.html">Sponsors</a></li>
+               <li><a href="Mission.html">Mission Statement</a></li>
+               <li class = "divider"></li>
+               <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+          </li>
+      </ul>
+       <ul class="nav navbar-nav navbar-right">
+        <ul class="list-inline">
+            <li class="iconsPad"><a href="https://twitter.com/PrimaryEsports"><img src="images/twitterNoBack.png" width="40px"/></a></li>
+            <li class="iconsPad"><a href="https://www.youtube.com/channel/UCpSiv0EaADSnzR20A8ddaPQ"><img src="images/youtubeNoBack.png" width="40px"/></a></li>
+            <li class="iconsPad"><a href="https://www.twitch.tv/strassyyy"><img src="images/twitchNoBack.png" width="40px"/></a></li>
+        </ul>
+       </ul>
+   </div>
+</nav>
+<!-- NavBar End-->
+    <div class="container">
+   <div class="subContentWhite">
+       <div class="agenda">
+        <div class="table-responsive">
+            <table class="table table-condensed table-bordered">
+                <thead>
+                    <tr>
+                        <th colspan="3" style="text-align: center;">
+                        Upcoming Events
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Event</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Single event in a single day -->
+                    <tr>
+                        <td class="agenda-date" class="active" rowspan="1">
+                            <div class="inlineBoxes">
+                                <div class="alignCenter">
+                                <div class="dayofmonth">19</div>
+                                <div class="dayofweek">Saturday</div>
+                                <div class="shortdate text-muted">July, 2017</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="agenda-time">
+                            5:30 PM CST
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event"> 
+                                Rocket League 3v3
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <!-- Multiple events in a single day (note the rowspan) -->
+                    <tr>
+                        <td class="agenda-date" class="active" rowspan="3">
+                            <div class="dayofmonth">24</div>
+                            <div class="dayofweek">Thursday</div>
+                            <div class="shortdate text-muted">July, 2017</div>
+                        </td>
+                        <td class="agenda-time">
+                            7:00 PM CST 
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event">
+                                1v1 Rocket League Tourney
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="agenda-time">
+                            8:00 PM CST
+                        <td class="agenda-events">
+                            <div class="agenda-event">
+                                CoD Tournament
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="agenda-time">
+                            9:00 PM CST
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event">
+                                PUBG's Tournament
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+</div>
+
+    
+    
+    </div>
+    </body>
+</html>
