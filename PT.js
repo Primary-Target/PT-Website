@@ -1,22 +1,18 @@
 window.onload = function () {
 	var chart = new CanvasJS.Chart("chartContainer",
 	{
-        animationEnabled: true,
-		theme: "theme1",
+        animationEnabled: false,
 		backgroundColor: "transparent",
         data: [
 		{        
-			type: "pie",
-			indexLabelFontFamily: "Garamond",       
+			type: "pie",      
 			indexLabelFontSize: 20,
 			indexLabelFontWeight: "bold",
-			startAngle:0,
-			indexLabelFontColor: "MistyRose",       
-			indexLabelLineColor: "darkgrey", 
+			startAngle:0,       
 			indexLabelPlacement: "inside", 
 			dataPoints: [
-				{  y: 52,indexLabel: "Win #percent%",indexLabelPlacement: "inside",indexLabelFontColor:"black",color:"blue", toolTipContent: "Wins: {y}"},
-				{  y: 44,indexLabel: "Loss #percent%",indexLabelPlacement: "inside",indexLabelFontColor:"black",color:"gray", toolTipContent: "Losses: {y}"}
+				{  y: 52,indexLabel: "Win #percent%",indexLabelPlacement: "inside",indexLabelFontColor:"white",color:"blue", toolTipContent: "Wins: {y}"},
+				{  y: 44,indexLabel: "Loss #percent%",indexLabelPlacement: "inside",indexLabelFontColor:"white",color:"gray", toolTipContent: "Losses: {y}"}
 			]
 		}
 		]
